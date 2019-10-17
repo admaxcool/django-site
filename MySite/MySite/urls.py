@@ -16,6 +16,12 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
+"""
+Desc: The admin directory in the url redirects to the admin panel which is pre-built in django
+
+input: admin directory added to the URL
+"""
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
 ]
